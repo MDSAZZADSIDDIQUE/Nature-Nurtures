@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell all kinds of plants."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept most major credit cards and Bkash"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "plant_suggestions",
+      "patterns": [
+        "Can you recommend some indoor plants?",
+        "I need a plant for my office.",
+        "Suggest me a low-maintenance plant."
+      ],
+      "responses": [
+        "Sure! How about a snake plant? It's perfect for indoors and requires minimal care.",
+        "Consider getting a peace lily. It thrives in low light conditions and is easy to care for.",
+        "You might like a ZZ plant. It's known for its resilience and can tolerate neglect."
+      ]
+    },
+    {
+      "tag": "plant_care",
+      "patterns": [
+        "How do I take care of succulents?",
+        "Any tips for watering orchids?",
+        "What's the best way to care for ferns?"
+      ],
+      "responses": [
+        "Succulents prefer well-draining soil and infrequent watering. Let the soil dry out between waterings.",
+        "For orchids, water them thoroughly and allow the roots to dry before watering again. They also like indirect light.",
+        "Ferns thrive in high humidity and indirect light. Keep the soil consistently moist but not soggy."
+      ]
+    },
+    {
+      "tag": "outdoor_plants",
+      "patterns": [
+        "Recommend me some flowering outdoor plants.",
+        "I need plants for my garden.",
+        "What are good options for my balcony?"
+      ],
+      "responses": [
+        "Consider planting roses for vibrant blooms in your garden.",
+        "Lavender is a great choice for both its fragrance and beauty. It attracts pollinators too.",
+        "For your balcony, try geraniums. They come in various colors and are relatively easy to care for."
+      ]
+    },
+    {
+      "tag": "plant_decor",
+      "patterns": [
+        "How can I decorate my living room with plants?",
+        "Suggest me some plants for home decor.",
+        "What are trendy plants for interior design?"
+      ],
+      "responses": [
+        "A fiddle leaf fig tree can make a bold statement in your living room.",
+        "Pothos vines are excellent for hanging planters and adding a touch of green to any room.",
+        "Consider a bonsai tree for a unique and artistic element in your home decor."
+      ]
+    },
+    {
+      "tag": "fragrant_plants",
+      "patterns": [
+        "I want plants that have a pleasant fragrance.",
+        "Suggest me some aromatic plants.",
+        "Which plants can make my garden smell nice?"
+      ],
+      "responses": [
+        "Jasmine is known for its sweet fragrance and beautiful white flowers.",
+        "Lavender not only looks lovely but also releases a calming scent.",
+        "Try planting gardenias for their exquisite fragrance that lingers in the air."
+      ]
+    },
+    {
+      "tag": "plant_diseases",
+      "patterns": [
+        "How do I identify plant diseases?",
+        "What are common plant diseases?",
+        "Help! My plant has spots on its leaves."
+      ],
+      "responses": [
+        "Plant diseases can manifest as leaf spots, wilting, or discoloration. Proper diagnosis is important.",
+        "Common plant diseases include powdery mildew, black spot, and root rot.",
+        "Leaf spots could be caused by various factors, including fungal or bacterial infections. Remove affected leaves and improve ventilation."
+      ]
+    }
+  ]
+}
